@@ -1,0 +1,27 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Atos_Bot",
+  "description": "Atos Kingdom bot",
+  "keywords": [
+    "Atos",
+    "bot"
+  ],
+  "author": "Zangeose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "discord.js": "^11.3.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  }
+}
